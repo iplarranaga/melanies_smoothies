@@ -24,8 +24,8 @@ Its purpose is to demonstrate how easy it is to connect both platforms while pro
 1. **Clone this repository:**
 
    ```bash
-   git clone https://github.com/user/smoothie-app.git
-   cd smoothie-app
+   git clone https://github.com/iplarranaga/melanies_smoothies.git
+   cd melanies_smoothies
 2. **Create and activate a virtual environment::**
 
 
@@ -35,24 +35,12 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 4. **Set up your Snowflake connection:**
-Create a file named .streamlit/secrets.toml and include your Snowflake credentials:
-
-user
-
-password
-
-account
-
-database
-
-schema
-
-warehouse
+Create a file named .streamlit/secrets.toml and include your Snowflake credentials
 
 🚀 Usage
 Run the application:
 
-streamlit run app.py
+streamlit run streamlit_app.py
 Open your browser:
 Go to http://localhost:8501 and start creating your smoothie:
 
